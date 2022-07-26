@@ -52,6 +52,6 @@ module.exports = {
       )
       .catch(console.error)
     return paths
-  }
+  },
   swcMinify: true,
 };
