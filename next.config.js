@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const client = require('./client')
+import client from './client';
 
 const STUDIO_REWRITE = {
   source: "/studio/:path*",
