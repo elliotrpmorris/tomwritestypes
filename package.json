@@ -13,6 +13,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@portabletext/react": "^1.0.6",
+    "@sanity/cli": "^2.30.2",
     "@sanity/client": "^3.3.2",
     "@sanity/image-url": "^1.0.1",
     "concurrently": "^7.3.0",
