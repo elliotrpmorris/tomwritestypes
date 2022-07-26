@@ -12,6 +12,7 @@
     "postinstall": "cd studio && yarn install"
   },
   "dependencies": {
+    "@formspree/react": "^2.3.0",
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@portabletext/react": "^1.0.6",
