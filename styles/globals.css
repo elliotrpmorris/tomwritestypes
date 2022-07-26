@@ -1,26 +1,37 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;600;700&display=swap');
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@layer base {
+  @font-face {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: light;
+    font-weight: 100;
   }
-  body {
-    color: white;
-    background: black;
+
+  @font-face {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: bold;
+    font-weight: 700;
   }
+
+  @font-face {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: medium;
+    font-weight: 400;
+  }
+}
+
+:root {
+  --black-coral: #545863ff;
+  --electric-blue: #00e8fcff;
+  --outrageous-orange: #f96e46ff;
+  --maize-crayola: #f9c846ff;
+  --misty-rose: #ffe3e3ff;
+
+  --animation-duration: 0.2s;
+  --animation-timing-function: cubic-bezier(0.33,0,0.66,1);
 }
