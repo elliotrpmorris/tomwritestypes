@@ -18,7 +18,7 @@
     "@sanity/image-url": "^1.0.1",
     "concurrently": "^7.3.0",
     "lerna": "^5.2.0",
-    "next": "12.2.3",
+    "next": "12.2.4",
     "next-sanity": "^0.6.0",
     "next-seo": "^5.5.0",
     "react": "18.2.0",
